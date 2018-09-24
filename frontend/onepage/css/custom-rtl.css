@@ -1,0 +1,187 @@
+@font-face {
+    font-family: 'NotoNask'; src: url('/fonts/NotoNaskhArabic-Regular.ttf'); }
+@font-face { font-family: 'Marah'; src: url('/fonts/Basim_Marah_Beh_Light.ttf'); }
+@font-face { font-family: 'Morni-Arabic-Bold'; src: url('/fonts/GE_Flow_Bold.otf'); }
+@font-face { font-family: 'Morni-Arabic'; src: url('/fonts/GE_Flow_Regular.otf'); }
+
+body {
+    font-family: 'morni-regular';
+}
+
+.header-navigation {
+font-family: 'morni-regular';
+}
+.site-logo {
+    float: left;
+    padding-top: 6px;
+}
+.about-block {
+    padding-top: 30px;
+}
+.content h4{
+    font-family: morni-regular;
+    line-height: 1.5;
+}
+.content h3 {
+    font-family: morni-bold;
+}
+.content h2 {
+    font-family: morni-bold;
+
+}
+.slider-item-1 .promo-like {
+    padding: 27px 21px 26px 22px;
+    top: -20px;
+
+}
+.slider-item-1 .promo-like-text i {
+    font-size: 55px;
+    line-height: 1;
+    font-family: morni-bold;
+}
+.services-block .fa {
+    font-size: 38px;
+    padding: 30px 0 0;
+}
+.slider-item-1 .promo-like-text h2 {
+    font: 400 38px/38px "PT Sans Narrow", Arial, sans-serif;
+    font-family: morni-regular;
+    padding: 0;
+    margin: 0 0 8px;
+}
+.slider-item-1 .promo-like-text {
+    font-family: morni-regular;
+}
+.team-block{
+    background: #f6f6f6;
+}
+.pre-footer h2 {
+    font-family: morni-bold;
+
+}
+.pre-footer address{
+    font-family: morni-regular;
+
+}
+
+/*Countdown*/
+#defaultCountdown {
+    width: 100%;
+    margin: 5px 0;
+    overflow: hidden;
+}
+
+#defaultCountdown span.countdown_row {
+    overflow: hidden;
+}
+
+#defaultCountdown span.countdown_row span {
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 18px;
+    margin-right: 2px;
+}
+
+#defaultCountdown span.countdown_row > span {
+    float: left;
+}
+
+#defaultCountdown span.countdown_section {
+    color: #fff;
+    padding: 7px 9px !important;
+    margin-bottom: 2px;
+    font-weight: 200;
+    background: url(/bg//bg-white.png) repeat;
+    text-align: center;
+}
+
+#defaultCountdown span.countdown_amount {
+    display: inline-block;
+    font-size: 28px !important;
+    padding: 8px !important;
+    font-weight: 200;
+}
+
+/*Responsive*/
+@media (max-width: 1024px) {
+    #defaultCountdown span.countdown_amount {
+        padding: 10px;
+    }
+}
+
+.panel-title > a, .panel-title > small, .panel-title > .small, .panel-title > small > a, .panel-title > .small > a {
+    font-family: morni-regular;
+
+}
+
+.panel .panel-body {
+    font-size: 15px;
+    font-family: morni-regular;
+}
+
+.form-control {
+    text-align: right;
+}
+.partners-block {
+    background-color: #FFF;
+}
+
+
+.message-block h1 {
+    font-family: morni-bold;
+    font-size: 5em;
+    z-index: 2;
+
+}
+.message-block em {
+    font-family: morni-bold;
+    font-size: 3em;
+    z-index: 2;
+
+}
+.message-block .fa {
+    background: #059698;
+    color: #fff;
+    width: 79px;
+    height: 79px;
+    line-height: 1;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 19px;
+    font-size: 28px;
+    padding: 15px 0 0;
+}
+ .content-box h3{
+   color:#fff;
+
+
+}
+
+.message-block {
+    background: #292F34 url(../img/morni_muck_up_car3.png) no-repeat fixed;
+
+}
+
+/* message block */
+.message-block {
+    z-index: 0;
+}
+.message-block:after {
+    background: rgba(0,0,0,0.73);
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -3;
+}
+.message-block h1 {
+
+}
+.message-block h1:after {
+    display: none;
+}
+.message-block h1 strong {
+    z-index: 5;
+}

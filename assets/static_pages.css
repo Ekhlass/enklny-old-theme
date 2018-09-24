@@ -1,0 +1,47 @@
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.vertically-centered {
+    align-items: center;
+}
+
+.featured-block {
+    padding: 60px 0;
+}
+
+.team-block, .featured-block {
+    background: #f6f6f6;
+}
+
+.partners-block img, .featured-block img {
+    padding-top: 20px;
+}
+
+.arabic-font {
+    font-family: 'morni-regular';
+}
+
+.english-font {
+    font-family: 'morni-regular_en';
+}
+
+.switch-website-language {
+    float: right;
+    padding-top: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 16px;
+    font-weight: 400;
+}
